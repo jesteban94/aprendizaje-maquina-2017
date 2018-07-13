@@ -10,7 +10,7 @@ cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2"
 
 Consideramos un problema de regresión con entradas $X=(X_1,X_2,\ldots, X_p)$
 y salida $Y$. Una de las maneras más simples que podemos intentar
-para predecir $Y$ en función de las $X_j$´s es mediante una suma ponderada
+para predecir $Y$ en función de las $X_j$´s es mediante una suma ponderadas
 de los valores de las $X_j's$, usando una función
 
 $$f_\beta (X) = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p,$$
