@@ -234,16 +234,16 @@ estimación, pues no vamos a tener la curva negra real para comparar.
 ### Ejemplo {-}
 Consideremos datos de diabetes en mujeres Pima:
 
-A population of women who were at least 21 years old, of Pima Indian heritage and living near Phoenix, Arizona, was tested for diabetes according to World Health Organization criteria. The data were collected by the US National Institute of Diabetes and Digestive and Kidney Diseases. We used the 532 complete records after dropping the (mainly missing) data on serum insulin.
+Una población de mujeres quienes tenían al menos 21 años, de herencia Pima India y viven cerca a Phoenix Arizona, fueron examinadas para diabetes de acuerdo con los criterios de la Organización Mundial de la Salud. Los datos fueron recogidos por el Instituto nacional de diabetes y enfermedades digestivas y renales US. Usamos los 532 registros completos después de descartar los datos (principalmente los faltantes) en suero de insulina.
 
-- npreg number of pregnancies.
-- glu plasma glucose concentration in an oral glucose tolerance test.
-- bp diastolic blood pressure (mm Hg).
-- skin triceps skin fold thickness (mm).
-- bmi body mass index (weight in kg/(height in m)\^2).
-- ped diabetes pedigree function.
-- age age in years.
-- type Yes or No, for diabetic according to WHO criteria.
+- npreg número de embarazos.
+- glu concentración de plasma de glucosa en un test oral de tolerancia de glucosa.
+- bp presión arterial diastólica (mm Hg).
+- skin triceps espesor del pliegue de piel (mm).
+- bmi índice de masa corporal (peso en Kg/ (altura en m^2)).
+- ped función del árbol genealógico de diabetes.
+- age edad en años.
+- Tipos si o no, para diabetes de acuerdo al criterio WHO.
 
 ```{r, message=FALSE, warning=FALSE}
 diabetes_ent <- as_data_frame(MASS::Pima.tr)
